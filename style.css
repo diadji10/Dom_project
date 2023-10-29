@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Style du header*/
+header {
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(4, 83, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+header img {
+  top: 8px;
+  position: relative;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+}
+/*Style du main*/
+h2 {
+  position: relative;
+  top: 20px;
+  font: italic lighter 40px sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+main {
+  margin: auto;
+  height: 150vh;
+  width: 98%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*Style du container card*/
+.container {
+  flex: 2.3;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin-right: 10px;
+}
+/*Style des card*/
+.card {
+  display: inline-block;
+  border: 1px solid rgb(4, 83, 83);
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  border-radius: 10px;
+}
+.image img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+/*Style des bouttons add et like*/
+.like {
+  position: relative;
+  font-size: 25px;
+  left: 3%;
+  top: 4%;
+  border: none;
+  background-color: transparent;
+  color: grey;
+}
+.like1 {
+  position: relative;
+  font-size: 25px;
+  left: 3%;
+  top: 4%;
+  border: none;
+  background-color: transparent;
+  color: red;
+}
+.add {
+  color: rgb(4, 83, 83);
+  position: relative;
+  font-size: 25px;
+  left: 2%;
+  top: 4%;
+  border: none;
+  background-color: transparent;
+}
+blockquote {
+  font-size: 30px;
+}
+cite {
+  font-size: 20px;
+}
+.panier {
+  flex: 1;
+  height: 100%;
+  border:  3px solid rgb(4, 83, 83);
+}
+.panier h3{
+  margin-top: 30px;
+    color: black;
+    font: normal lighter 40px  'Times New Roman', Times, serif;
+    text-align: center;
+ 
+}
+.total{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 30px;
+}
+/*Style des bouttons validate et reset*/
+.validate{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(26, 189, 140);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.reset{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(232, 43, 43);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.buttons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+ul{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+li{
+  color: rgb(2, 15, 15);
+  list-style-type: circle;
+}
